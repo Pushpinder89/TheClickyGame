@@ -16,6 +16,7 @@ class App extends Component {
   }
   render() {
     const ImageComponents = imagesData.map(item => <ImagesCompo  key={item.id} image={item.image} />)
+    // let hhhh = [Math.floor(Math.random() * ImageComponents)]
     return (
       <div>
       <div  className="App">
